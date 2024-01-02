@@ -1,0 +1,15 @@
+/* .cl-1{
+    width: fit-content;
+    height:fit-content;
+    position: absolute;
+    background-color: pink;
+    position: absolute;
+} */
+
+.line{
+    height:24vw;
+    left: 85%;
+    top:25%;
+    position:absolute;
+    border: 1px solid black;
+}

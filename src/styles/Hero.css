@@ -1,0 +1,65 @@
+@font-face {
+font-family: 'mono';
+    src: url(../font/RobotoMono-VariableFont_wght.ttf);
+}
+
+.hero{
+   /* background:red; */
+   width: 100vw;
+   height: 90vh;
+    position: relative;
+    font-family: 'mono';
+}
+
+.title{
+    
+    width:fit-content;
+    padding: 9vw;
+    font-size: 4vw;
+}
+
+.title span{
+    font-size: 5vw;
+}
+
+.bx-h{
+    width: 110vh;
+    height:35vh;
+    top:55%;
+    left:48.2%;
+    right: 4vw;
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.53);
+    
+    /* margin-left:80%; */
+}
+
+.bx-v{
+    width: 65vh;
+    height:92vh;
+    top:4%;
+    left:58%;
+    z-index: -1;
+    position: absolute;
+
+    background-color: yellow;
+}
+
+.bx-v img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+}
+
+.bb{
+    width:fit-content;
+    height:fit-content;
+    background-color: #00000064;
+    left:50.2%;
+    top:89.4%;
+    position: absolute;
+}
+
+
+

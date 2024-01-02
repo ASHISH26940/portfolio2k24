@@ -1,0 +1,10 @@
+.number{
+    position: absolute;
+    height:15vw;
+    width:15vw;
+    top:18%;
+    z-index: -1;
+    left:6%;
+    font-size: 10vw;
+    font-stretch:extra-expanded;
+}

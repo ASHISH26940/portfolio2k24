@@ -1,0 +1,15 @@
+.options{
+    
+    width:fit-content;
+    position: absolute;
+    left:80%;
+    top:26%
+}
+
+.options:hover{
+    box-shadow: 1vw 1vw 1vw 1vw rgba(0,0,0,0.102);
+    cursor: pointer;
+    transition: ease-in-out .8s;
+    left:78%;
+    top:24%
+}
