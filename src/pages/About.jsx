@@ -4,14 +4,17 @@ import '../styles/About.css'
 import Numbers from '../components/Numbers'
 import Coulumn from '../components/Coulumn'
 import Imaged from '../components/Imaged'
+import UserContextProvider from '../context/UserContextProvider'
 const About = () => {
   return (
-    <div className='main'>
-      <ImgBox />
-      <Numbers />
-      <Coulumn />
-      <Imaged />
-    </div>
+    <UserContextProvider>
+        <div className='main' >
+          <ImgBox />
+          <Numbers />
+          <Coulumn />
+          <Imaged />
+        </div>
+    </UserContextProvider>
   )
 }
 

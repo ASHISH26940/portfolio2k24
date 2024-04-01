@@ -3,20 +3,11 @@ import '../styles/Hero.css';
 import test from '..//assets/test1.jpg';
 import Boxed from '../components/Boxed';
 import RightArrow from '../assets/RightArrow.svg';
-
+import justscrolldown from '../assets/justscrolldown.png';
+import itdoesnotwork from '../assets/itdoesnotwork.png';
 
 const Hero = () => {
   const text = [
-    {
-      title: "A Web Developer",
-      style: {
-        color: "#222",
-        position: 'absolute',
-        top: "20%",
-        right: "50%",
-        border: "1px solid black",
-      },
-    },
     {
       title: "A Software Developer",
       style: {

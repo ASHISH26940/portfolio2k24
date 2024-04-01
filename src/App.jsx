@@ -58,6 +58,7 @@ import Home from '../src/pages/Home'
 import About from '../src/pages/About'
 import Contact from '../src/pages/Contact'
 import './App.css'
+import Last from "./pages/Last";
 gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
@@ -84,14 +85,16 @@ const App = () => {
   return (
       <>
         <div ref={component}>
-        <div ref={slider} className="flex">
-          <div className="panel"><Home /></div>
-          <div className="panel"><About /></div>
+          <div ref={slider} className="flex">
+            <div className="panel"><Home /></div>
+            <div className="panel"><About /></div>
+            
+          </div>
           
         </div>
-          
-        </div>
+        
         <div className="panel"><Contact /></div>
+        <div className="panel"><Last /></div>
       </>
   )
 }

@@ -1,10 +1,60 @@
-body{
+@font-face {
+    font-family: 'mono';
+    src: url(../font/RobotoMono-VariableFont_wght.ttf);
+}
+/* body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+    font-family: 'mono';
+} */
 .main{
     width:98vw;
     min-height: 100vh;
     position: relative;
+}
+.img-cont{
+    width:fit-content;
+    height:30vw;
+    height:fit-content;
+    margin-top:6vw;
+    /* background: pink; */
+}
+.img-cont img{
+    width:95%;
+    height:100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+.center {
+    display:flex;
+    justify-content: space-between;
+}
+
+.sidetext{
+    margin-left:6vw;
+    width:fit-content;
+    height: fit-content;
+    background-color: rgba(255, 0, 0, 0.53);
+    padding-top:1vw;
+    padding-right:12vw;
+    font-size: 3vw;
+    transform: rotate(-90deg);
+    
+
+}
+
+.fstcol{
+    display: flex;
+    justify-content: end;
+    width:95%;
+    font-size: 2vw;
+    font-family: 'mono';
+}
+
+.sndcol{
+    font-size: 2vw;
+    width:95%;
+    margin-top:-.498vw;
+    font-family: 'mono';
 }
